@@ -1,0 +1,37 @@
+*{
+    text-transform: capitalize;
+    color: white;
+}
+body{
+    background-color: #FFEDFA;
+}
+.parent{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate( -50%, -50% );
+background-color: #FFB8E0;
+border-radius: 30px;
+width: 40vw;
+}
+div.parent button{
+    background-color: transparent;
+    padding: .5rem 2.5rem;
+    border: 1px solid #BE5985;
+    border-radius: 20px;
+    transition: .4s;
+    position: a;
+    
+}
+div.parent button:hover{
+    background-color: #dd6b9c;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate( -10%, -70% );
+}
+.bigparent{
+    position: relative; 
+}
