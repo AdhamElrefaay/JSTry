@@ -17,8 +17,8 @@ btnNo.onclick = function() {
     }
     // Move the button
     btnNo.style.position = "absolute";
-    btnNo.style.top = `${Math.random()*200}px`;
-    btnNo.style.left = `${Math.random()*500}px`;
+    btnNo.style.top = `${Math.random()*100}vh`;
+    btnNo.style.left = `${Math.random()*50}vw`;
     
     // Check if an image already exists
     const existingImg = document.getElementById('img');
